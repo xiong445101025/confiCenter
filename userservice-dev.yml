@@ -6,7 +6,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://192.168.76.131:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
