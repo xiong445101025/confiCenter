@@ -10,9 +10,9 @@ eureka:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost/zuoye
-    username: user1
-    password: 123456
+    url: jdbc:mysql://localhost/mysql
+    username: root
+    password: ps123456
   application:
     name: userservice
 server:
